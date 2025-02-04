@@ -12,22 +12,23 @@
 </head>
 <body>
     <div class="container">
-        <form action="">
+        <form id="form">
+
             <div class="header">
                 <h1>Login</h1>
             </div>
 
 
             <div class="inputName">
-                <input type="text" placeholder="Usuário"
-                required>
+                <input type="text" placeholder="User"
+                id="usuario">
                 <i class='bx bxs-user'></i>
             </div>
 
 
             <div class="inputSenha">
-                <input type="password" placeholder="Senha"
-                required>
+                <input type="password" placeholder="Password"
+                id="senha">
                 <i class='bx bxs-lock-alt'></i>
             </div>
 
@@ -42,12 +43,12 @@
 
 
             <div class="btnEntrar">
-                <button type="submit" class="botaoEntrar">Entrar</button>
+                <button type="submit" class="botaoEntrar" id="entrar">Entrar</button>
             </div>
 
-            
-            <div class="btnCriar">
-                <button type="submit" class="botaoCriar">Criar Conta</button>
+            <div 
+            class="msg" 
+            id="error-msg">
             </div>
             
         </form>

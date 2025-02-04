@@ -108,6 +108,7 @@ body{
 
 .btnEntrar{
     padding-bottom: 20px;
+    padding-top: 30px;
 }
 
 .container .botaoEntrar{
@@ -149,4 +150,9 @@ body{
 
 .container .botaoCriar:hover{
     box-shadow: inset 400px 0 0 0 rgb(124, 70, 216);
+}
+
+.msg{
+    color: red;
+    display: none;
 }
