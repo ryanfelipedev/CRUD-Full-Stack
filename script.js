@@ -39,3 +39,4 @@ document.getElementById('senha').addEventListener('focus', function(){
     errorMsg.style.display = 'none';
     errorMsg.textContent = ''
 })
+
