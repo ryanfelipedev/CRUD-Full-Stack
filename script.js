@@ -12,10 +12,11 @@ document.getElementById('form').addEventListener('submit', function(event){
 
     // Valida os campos
 
-    if (usuario === '' || senha === ''){
+    if (usuario === 'ryanfelipe2004' || senha === '250101'){
+        alert('login efetuado com sucesso !')
+        
+    } else {
         errorMsg.textContent = 'Por favor preencha os campos !';
         errorMsg.style.display = 'block'
-    } else {
-        // Em breve
     }
 })
