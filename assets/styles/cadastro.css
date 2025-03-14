@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Main{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 80%;
+    height: 700px;
+    background: linear-gradient(135deg, rgba(0, 128, 255, 0.291), rgba(128, 0, 255, 0.8));
+    backdrop-filter: blur(80px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    margin-left: 200px;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    width: 100%;
+    padding: 20px;
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.section {
+    display: flex; /* Ativa o layout flexível */
+    align-items: center; /* Alinha verticalmente os itens no centro */
+    margin-top: 30px;
+}
+
+.section .img-produto {
+    margin-right: 600px; /* Espaço entre a imagem e o input */
+}
+
+.input{
+    margin-right: 130px;
+}
+
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
