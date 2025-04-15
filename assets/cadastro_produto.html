@@ -11,28 +11,53 @@
         <source src="img/0_Space_Stars_3840x2160.mp4" type="video/mp4">
     </video>
 
-    <div class="Main">
+    <div class="container">
         
-        <div class="conteudo">
+        <form class="form" id="form">
 
             <div class="title">
                 <h1>Cadastro de Produtos</h1>
             </div>
             
-            <div class="section">
-                
+            <div class="section-img">
                 <img src="img/produtos.png" alt="foto-cadastro-produto" class="img-produto">
-
-                <div class="input">
-                    <input type="text">
-                </div>
-
             </div>
 
-        </div>
+            <div class="section-input">
+                <div class="container-input">
+
+                    <div class="inputNome">
+                        <input type="text" placeholder="Nome do Produto" class="nome-input" autocomplete="off">
+                    </div>
+
+                    <div class="inputValor">
+                        <input type="number" placeholder="Valor do Porduto" class="valor-input" autocomplete="off">
+                    </div>
+
+                    <div class="inputQuantidade">
+                        <input type="number" placeholder="Quantidade do Produto" class="quantidade-input" autocomplete="off">
+                    </div>
+
+                    <div 
+                    id="error-msg">
+                    </div>
+
+                    <div class="botao-cadastrar">
+                        <button class="botaoCadastrar" type="submit" id="cadastrar">Cadastrar Produtos</button>
+                    </div>
+
+                    <div class="botao-listar">
+                        <button class="botaoListar" type="button" id="listar">Listar Produtos</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </form>
 
     </div>
 
     <script src="js/cadastro.js"></script>
 </body>
 </html>
+
